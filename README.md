@@ -25,6 +25,14 @@ Manually clone the repo and then run
 npm install
 ```
 
+You will need a `.env` file which will be missing. Make sure your able to see hidden files and rename `.env.example` to `.env`.
+
+This will give you a working `.env` file which you can configure to your hearts content. However, the `APP_KEY` will be empty. In order to generate one run this command
+
+```bash
+adonis key:generate
+```
+
 
 ### Run Server & Auto Compile
 
